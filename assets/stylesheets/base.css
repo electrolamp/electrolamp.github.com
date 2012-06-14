@@ -1,0 +1,114 @@
+body{
+  color: #333;
+  font-size: 16px;
+  font-family: courier new, courier, monospace;
+  font-family: BebasNeueRegular, helvetica neue, helvetica, sans-serif;
+  background-color: #fefefe;
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+h1 a {
+  letter-spacing: -1px;
+  font-family: PacificoRegular, georgia, serif;
+  font-weight:100;
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  margin-top: 65px;
+  letter-spacing: -1px;
+  font-size: 7em;
+  font-family: PacificoRegular, georgia, serif;
+  font-weight:100;
+  line-height: 0.2em;
+  text-decoration: none;
+  margin-bottom: 0.4em;
+  color:black;
+}
+h2, h3, h4, h5 {
+  font-family: TheanoDidotRegular, palatino, palatino linotype, georgia, serif;
+  font-weight: 100;
+  font-style:italic;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+p {
+  margin-top
+  font-size: 1.7em;
+  font-weight: 100;
+}
+p {
+  -moz-column-count:3; /* Firefox */
+  -webkit-column-count:3; /* Safari and Chrome */
+  column-count:3;
+}
+.lesson p {
+  font-family: helvetica, sans-serif;
+  font-size:0.7em;
+}
+a {
+  font-family: courier new, courier, monospace;
+  font-weight: 800;
+  color: black;
+  text-transform:lowercase;
+}
+img {
+  vertical-align:middle;
+  padding: 0.20em;
+}
+#color {
+  background:white url(http://subtlepatterns.com/patterns/argyle.png);
+  background:white url(http://subtlepatterns.com/patterns/subtle_zebra_3d.png);
+  position:absolute;
+  height:297px;
+  width:100%;
+  z-index:-1;
+}
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+#nav {
+  position: absolute;
+  padding: 1em;
+}
+#light {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#header {
+  position: fixed;
+  width: 960px;
+  top: 0;
+  margin: 13em auto;
+  padding-left:145px;
+  text-align:center;
+  color:white;
+}
+#cord {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: 243px;
+  border-right: 13px solid black;
+  height: 200px;
+  width: 0px;
+}
+#lamp {
+  position: absolute;
+  left: 50%;
+  margin-left: 185px;
+  top: 185px;
+}
+#intro {
+  font-size: 1.7em;
+  margin-top: 100%;
+  padding-top: 1em;
+  color: #cecece;
+}
+
